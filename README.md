@@ -34,4 +34,4 @@ Tasks 4 and 5 are meant to act as utility functions and are runnable in the node
 
 - `node test/utils/name_of_file.js`
 
-Note: This is for checkboxes.js and and dropdown.js. util.js is just for storing helper functions used throught out the project
+Note: This is for checkboxes.js and and dropdown.js. util.js is just for storing helper functions used through out the project
