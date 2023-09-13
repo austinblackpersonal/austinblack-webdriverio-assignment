@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "chai": "^4.3.8",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "webdriverio": "^8.16.6"
   }
 }
