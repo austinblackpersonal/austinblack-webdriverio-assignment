@@ -1,9 +1,13 @@
 import TablePage from '../pageobjects/table.page.js'
 
+
 export const equalCheck = async (a, b)  => {
     return JSON.stringify(a) === JSON.stringify(b);
 }
 
+export const getRandomNum = (num) => {
+    return Math.floor(Math.random() * num) + 1;
+}
 
 export const confirmSort = async (ind, sortBy, isNum=false) => {
     let tableValues = await TablePage.getColumnValues(ind);

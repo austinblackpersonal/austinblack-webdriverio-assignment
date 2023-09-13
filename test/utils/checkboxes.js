@@ -1,5 +1,5 @@
 import { remote } from "webdriverio";
-// import { browser, $ } from "@wdio/globals";
+import { getRandomNum } from "./util.js";
 
 const browser = await remote({
     capabilities: {
@@ -10,8 +10,8 @@ const browser = await remote({
     }
 })
 
-const num1 = Math.floor(Math.random() * 10) + 1;
-const num2 = Math.floor(Math.random() * 10) + 1;
+const num1 = getRandomNum(10);
+const num2 = getRandomNum(10);
 
 async function clickCheckboxes() {
     await console.log("checkbox 1: ", num1);
