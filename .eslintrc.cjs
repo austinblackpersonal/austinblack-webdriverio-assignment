@@ -1,11 +1,17 @@
 module.exports = {
-    "globals": {
+    'env' : {
+      'mocha': true
+    },
+    'globals': {
       '$': true,
       '$$': true,
-      'browser' : true
+      'browser': true
     },
-    extends: [
-    'semistandard'
+    'plugins': ['wdio'],
+    'extends': [
+    'semistandard',
+    'eslint:recommended',
+    'plugin:wdio/recommended'
   ]
 };
 

@@ -1,6 +1,5 @@
 import HoverPage from '../pageobjects/hover.page.js';
 import chai from 'chai';
-import { describe, it } from 'mocha';
 
 describe('Hover actions', () => {
   it('Hover over user1 and view profile', async () => {

@@ -1,7 +1,6 @@
 import TablePage from '../pageobjects/table.page.js';
 import chai from 'chai';
 import { equalCheck, confirmSort } from '../utils/util.js';
-import { describe, it } from 'mocha';
 
 describe('Table actions', () => {
   it('Clicking last name header sorts list by last name', async () => {

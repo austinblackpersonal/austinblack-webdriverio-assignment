@@ -2,7 +2,6 @@ import 'dotenv/config';
 import LoginPage from '../pageobjects/login.page.js';
 import SecurePage from '../pageobjects/secure.page.js';
 import chai from 'chai';
-import { describe, it } from 'mocha';
 
 describe('Login and Logout', () => {
   it('should login with valid credentials, and log out successfully', async () => {
