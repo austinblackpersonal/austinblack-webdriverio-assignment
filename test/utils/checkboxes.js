@@ -19,11 +19,9 @@ async function clickCheckboxes() {
     await browser.url('http://the-internet.herokuapp.com/checkboxes');
     const checkboxes = await browser.$$('#checkboxes input')
     for (let i = 0; i < num1; i++) {
-        await browser.pause(1000)
         await checkboxes[0].click();
     }
     for (let i = 0; i < num2; i++) {
-        await browser.pause(1000)
         await checkboxes[1].click();
     }
     await browser.deleteSession();
